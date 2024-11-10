@@ -1,0 +1,56 @@
+/* Reset styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+/* Left navigation bar */
+.left-nav {
+    width: 80px; /* Narrow width for icons only */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    position: fixed;
+    height: 100vh;
+}
+
+/* Logo styles */
+.logo img {
+    height: 50px;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+/* Navigation icons */
+.nav-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.nav-icons a {
+    color: #2C5F2D; /* Dark green from palette */
+    font-size: 28px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-icons a:hover {
+    color: #5B9279; /* Slightly lighter green on hover */
+}
+
+.nav-icons a i {
+    /* Icon color variations based on the palette */
+    color: #2C5F2D; /* Dark green */
+}
+
+
+
